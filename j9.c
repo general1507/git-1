@@ -24,8 +24,8 @@
 
     srand(time(NULL));
     int n, k;
-    printf("Son kiriting n= "); scanf("%d", &n);
-    printf("k= "); scanf("%d", &k);
+    printf("Qancha surilsin k= "); scanf("%d", &n);
+    printf("n= "); scanf("%d", &k);
     int nums[n];
     int A[k];
     rand_nums(nums, A, n, k);
