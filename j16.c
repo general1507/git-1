@@ -13,7 +13,6 @@ void fill_rand_num(int arr[], int n){
 void add(int arr[],int neg){
     int sum = 0;
     for(int i = 0; i < neg; i++){
-        printf("%d", arr[i]);
         printf("%d ", arr[i]);
         sum += arr[i];
     } printf("\nsum = %d\n", sum);
