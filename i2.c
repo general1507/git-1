@@ -1,21 +1,21 @@
 #include <stdio.h>
 
-void Exchange(int *n){
-    *n=*n%10*10+*n/10;
-    printf("%d", *n);
-    puts("");
-    
-}
+
+void square(int *a){
+    printf("%d\n", *a**a);
+  
+}    
 
 
 int main(){
 
-int n;
+    int a;
+
+    printf("Son kiriting==> "); scanf("%d", &a);
 
 
-printf("Ikki xonali son kiriting==> "); scanf("%d", &n);
+    square(&a);
 
-     Exchange(&n);
     return 0;
 
 
